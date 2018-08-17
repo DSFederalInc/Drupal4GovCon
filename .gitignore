@@ -38,3 +38,4 @@ docroot/sites/simpletest
 # Ignore SimpleTest multi-site environment.
 # simpletest
 db-backups/*
+db-data/*
