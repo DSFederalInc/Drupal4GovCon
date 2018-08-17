@@ -54,5 +54,7 @@ RUN curl -OL https://github.com/drush-ops/drush-launcher/releases/download/0.6.0
 
 RUN apt-get update && apt-get install -y mysql-client && rm -rf /var/lib/apt
 
+RUN cd /tmp && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
+
 WORKDIR /var/www/html
 #EXPOSE 80
