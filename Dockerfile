@@ -52,7 +52,7 @@ RUN curl -OL https://github.com/drush-ops/drush-launcher/releases/download/0.6.0
 && chmod +x drush.phar \
 && mv drush.phar /usr/local/bin/drush
 
-RUN apt-get update && apt-get install -y mysql-client && rm -rf /var/lib/apt
+RUN apt-get update && apt-get install -y mysql-client git-core && rm -rf /var/lib/apt
 
 RUN cd /tmp && curl -sS https://getcomposer.org/installer | php && mv composer.phar /usr/local/bin/composer
 
