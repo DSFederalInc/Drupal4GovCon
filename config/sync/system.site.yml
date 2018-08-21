@@ -1,0 +1,14 @@
+uuid: 2a673d08-3800-46c7-8c35-be55f4fa7eff
+name: 'DrupalGovCon 2018 Demo Site'
+mail: hunde.tekle@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

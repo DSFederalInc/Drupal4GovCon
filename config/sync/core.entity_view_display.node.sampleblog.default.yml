@@ -1,0 +1,26 @@
+uuid: 19a55e13-f98f-4c04-8ff0-a90eef7730a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sampleblog.body
+    - node.type.sampleblog
+  module:
+    - text
+    - user
+id: node.sampleblog.default
+targetEntityType: node
+bundle: sampleblog
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
