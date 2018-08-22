@@ -146,8 +146,11 @@ Open: http://localhost:HOST_APACHE_PORT (The port number you configured on .env 
 
 ## Resource 
 [Link to DrupalGovCon Session](https://www.drupalgovcon.org/2018/program/sessions/deployment-made-easy-automating-deployment-docker)
+
 [Link to Presentation](https://www.drupalgovcon.org/sites/default/files/session/slides/2018-08/Deployment%20Made%20Easy.pdf)
+
 [Link to Demo I](https://www.youtube.com/watch?v=qZalwRMcQk0&feature=youtu.be)
+
 [Link to Demo II](https://www.youtube.com/watch?v=GHTRZyfXc2M&feature=youtu.be)
 
 ## Authors
