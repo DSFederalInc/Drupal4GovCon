@@ -1,0 +1,26 @@
+uuid: d501b4f5-135c-47b8-807e-ad04c20d23af
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.testevent.body
+    - node.type.testevent
+  module:
+    - text
+    - user
+id: node.testevent.default
+targetEntityType: node
+bundle: testevent
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

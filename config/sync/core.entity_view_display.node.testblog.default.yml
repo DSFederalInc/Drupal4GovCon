@@ -1,0 +1,26 @@
+uuid: 5e83ecc8-6168-41c7-97a6-a599d4cc77a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.testblog.body
+    - node.type.testblog
+  module:
+    - text
+    - user
+id: node.testblog.default
+targetEntityType: node
+bundle: testblog
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: c5111033-9edf-4280-a921-213b9e06eb0a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.testnews
+  module:
+    - text
+id: node.testnews.body
+field_name: body
+entity_type: node
+bundle: testnews
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
