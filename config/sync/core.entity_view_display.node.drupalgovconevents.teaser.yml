@@ -1,0 +1,28 @@
+uuid: 5c00d195-b30d-4a02-a003-21e7bb442da2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.drupalgovconevents.body
+    - node.type.drupalgovconevents
+  module:
+    - text
+    - user
+id: node.drupalgovconevents.teaser
+targetEntityType: node
+bundle: drupalgovconevents
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
