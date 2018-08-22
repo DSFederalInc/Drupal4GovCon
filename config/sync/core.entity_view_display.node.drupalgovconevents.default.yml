@@ -1,0 +1,26 @@
+uuid: 49eef5e1-7a4a-4a4c-b151-38e687fbb598
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.drupalgovconevents.body
+    - node.type.drupalgovconevents
+  module:
+    - text
+    - user
+id: node.drupalgovconevents.default
+targetEntityType: node
+bundle: drupalgovconevents
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
